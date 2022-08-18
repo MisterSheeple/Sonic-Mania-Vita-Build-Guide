@@ -2,7 +2,7 @@
 
 ***This guide is for Linux only.*** If you are running Windows, please install Windows Subsystem for Linux and use that for this guide.
 
-## Instructions (easy)
+## Instructions (simple)
 
 1. Install VitaSDK from [here](https://vitasdk.org/).
 2. Run this command if you are using Debian/Ubuntu. If you are using a different Linux distribution, adapt the command accordingly: `sudo apt-get install make git-core cmake python`
