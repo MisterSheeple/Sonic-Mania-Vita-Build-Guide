@@ -4,7 +4,7 @@ cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 cmake --install build
 cd ..
-git clone https://github.com/SonicMastr/RSDKv5-Decompilation --recursive
+git clone https://github.com/SonicMastr/RSDKv5-Decompilation.git --recursive
 cd RSDKv5-Decompilation
 cmake -S. -Bbuild -DCMAKE_TOOLCHAIN_FILE=${VITASDK}/share/vita.toolchain.cmake -DCMAKE_BUILD_TYPE=Release
 cmake --build build
